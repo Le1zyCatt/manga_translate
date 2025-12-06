@@ -188,7 +188,7 @@ async def receive_images(request: Request):
 
         # api翻译
         # 初始化翻译器
-        api_key = "sk-e2df5bf136ff4e88bbd03642aa38373b"
+        api_key = "已隐藏"
         translator = BailianTranslator(api_key)
         
         translated_data = translator.translate_json_file(f"{parent_dir}/{filename}.json", target_lang=TAR_LANG)
